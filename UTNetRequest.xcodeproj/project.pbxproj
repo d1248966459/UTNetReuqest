@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67F671761B831F7600BA0ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671751B831F7600BA0ACF /* main.m */; };
+		67F671791B831F7600BA0ACF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671781B831F7600BA0ACF /* AppDelegate.m */; };
+		67F6717C1B831F7600BA0ACF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6717B1B831F7600BA0ACF /* ViewController.m */; };
+		67F6717F1B831F7600BA0ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F6717D1B831F7600BA0ACF /* Main.storyboard */; };
+		67F671811B831F7600BA0ACF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F671801B831F7600BA0ACF /* Images.xcassets */; };
+		67F671841B831F7600BA0ACF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67F671821B831F7600BA0ACF /* LaunchScreen.xib */; };
+		67F671901B831F7600BA0ACF /* UTNetRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6718F1B831F7600BA0ACF /* UTNetRequestTests.m */; };
+		67F672071B831FEB00BA0ACF /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6719C1B831FEB00BA0ACF /* AFHTTPRequestOperation.m */; };
+		67F672081B831FEB00BA0ACF /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6719E1B831FEB00BA0ACF /* AFHTTPRequestOperationManager.m */; };
+		67F672091B831FEB00BA0ACF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671A01B831FEB00BA0ACF /* AFHTTPSessionManager.m */; };
+		67F6720A1B831FEB00BA0ACF /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671A31B831FEB00BA0ACF /* AFNetworkReachabilityManager.m */; };
+		67F6720B1B831FEB00BA0ACF /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671A51B831FEB00BA0ACF /* AFSecurityPolicy.m */; };
+		67F6720C1B831FEB00BA0ACF /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671A71B831FEB00BA0ACF /* AFURLConnectionOperation.m */; };
+		67F6720D1B831FEB00BA0ACF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671A91B831FEB00BA0ACF /* AFURLRequestSerialization.m */; };
+		67F6720E1B831FEB00BA0ACF /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671AB1B831FEB00BA0ACF /* AFURLResponseSerialization.m */; };
+		67F6720F1B831FEB00BA0ACF /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671AD1B831FEB00BA0ACF /* AFURLSessionManager.m */; };
+		67F672101B831FEB00BA0ACF /* UTAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671B11B831FEB00BA0ACF /* UTAPIBaseManager.m */; };
+		67F672111B831FEB00BA0ACF /* UTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671B31B831FEB00BA0ACF /* UTObject.m */; };
+		67F672121B831FEB00BA0ACF /* UTCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671B61B831FEB00BA0ACF /* UTCache.m */; };
+		67F672131B831FEB00BA0ACF /* UTCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671B81B831FEB00BA0ACF /* UTCacheObject.m */; };
+		67F672141B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671BB1B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m */; };
+		67F672151B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671BD1B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m */; };
+		67F672161B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671BF1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m */; };
+		67F672171B831FEB00BA0ACF /* UTDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671C21B831FEB00BA0ACF /* UTDataProvider.m */; };
+		67F672181B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671C51B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m */; };
+		67F672191B831FEB00BA0ACF /* UTNetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671C71B831FEB00BA0ACF /* UTNetWorkStatus.m */; };
+		67F6721A1B831FEB00BA0ACF /* UTRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671CA1B831FEB00BA0ACF /* UTRequestFactory.m */; };
+		67F6721B1B831FEB00BA0ACF /* UTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671CC1B831FEB00BA0ACF /* UTResponse.m */; };
+		67F6721C1B831FEB00BA0ACF /* UTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671CE1B831FEB00BA0ACF /* UTService.m */; };
+		67F6721D1B831FEB00BA0ACF /* UTServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671D01B831FEB00BA0ACF /* UTServiceFactory.m */; };
+		67F6721E1B831FEB00BA0ACF /* UTUserInfoApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671D31B831FEB00BA0ACF /* UTUserInfoApiManager.m */; };
+		67F6721F1B831FEB00BA0ACF /* UTUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671D51B831FEB00BA0ACF /* UTUserInfoModel.m */; };
+		67F672201B831FEB00BA0ACF /* UTUserInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671D71B831FEB00BA0ACF /* UTUserInfoService.m */; };
+		67F672211B831FEB00BA0ACF /* UTErrorInterceptorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671DA1B831FEB00BA0ACF /* UTErrorInterceptorHandler.m */; };
+		67F672221B831FEB00BA0ACF /* UTAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671DD1B831FEB00BA0ACF /* UTAPIBaseManager.m */; };
+		67F672231B831FEB00BA0ACF /* UTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671DF1B831FEB00BA0ACF /* UTObject.m */; };
+		67F672241B831FEB00BA0ACF /* UTCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671E21B831FEB00BA0ACF /* UTCache.m */; };
+		67F672251B831FEB00BA0ACF /* UTCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671E41B831FEB00BA0ACF /* UTCacheObject.m */; };
+		67F672261B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671E71B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m */; };
+		67F672271B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671E91B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m */; };
+		67F672281B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671EB1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m */; };
+		67F672291B831FEB00BA0ACF /* UTDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671EE1B831FEB00BA0ACF /* UTDataProvider.m */; };
+		67F6722A1B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671F11B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m */; };
+		67F6722B1B831FEB00BA0ACF /* UTNetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671F31B831FEB00BA0ACF /* UTNetWorkStatus.m */; };
+		67F6722C1B831FEB00BA0ACF /* UTRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671F61B831FEB00BA0ACF /* UTRequestFactory.m */; };
+		67F6722D1B831FEB00BA0ACF /* UTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671F81B831FEB00BA0ACF /* UTResponse.m */; };
+		67F6722E1B831FEB00BA0ACF /* UTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671FA1B831FEB00BA0ACF /* UTService.m */; };
+		67F6722F1B831FEB00BA0ACF /* UTServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671FC1B831FEB00BA0ACF /* UTServiceFactory.m */; };
+		67F672301B831FEB00BA0ACF /* UTUserInfoApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F671FF1B831FEB00BA0ACF /* UTUserInfoApiManager.m */; };
+		67F672311B831FEB00BA0ACF /* UTUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F672011B831FEB00BA0ACF /* UTUserInfoModel.m */; };
+		67F672321B831FEB00BA0ACF /* UTUserInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F672031B831FEB00BA0ACF /* UTUserInfoService.m */; };
+		67F672331B831FEB00BA0ACF /* UTErrorInterceptorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F672061B831FEB00BA0ACF /* UTErrorInterceptorHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67F6718A1B831F7600BA0ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67F671681B831F7600BA0ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F6716F1B831F7600BA0ACF;
+			remoteInfo = UTNetRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67F671701B831F7600BA0ACF /* UTNetRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTNetRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F671741B831F7600BA0ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F671751B831F7600BA0ACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67F671771B831F7600BA0ACF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67F671781B831F7600BA0ACF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67F6717A1B831F7600BA0ACF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67F6717B1B831F7600BA0ACF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67F6717E1B831F7600BA0ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67F671801B831F7600BA0ACF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67F671831B831F7600BA0ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		67F671891B831F7600BA0ACF /* UTNetRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTNetRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F6718E1B831F7600BA0ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F6718F1B831F7600BA0ACF /* UTNetRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTNetRequestTests.m; sourceTree = "<group>"; };
+		67F6719B1B831FEB00BA0ACF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		67F6719C1B831FEB00BA0ACF /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		67F6719D1B831FEB00BA0ACF /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		67F6719E1B831FEB00BA0ACF /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		67F6719F1B831FEB00BA0ACF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		67F671A01B831FEB00BA0ACF /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		67F671A11B831FEB00BA0ACF /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		67F671A21B831FEB00BA0ACF /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		67F671A31B831FEB00BA0ACF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		67F671A41B831FEB00BA0ACF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		67F671A51B831FEB00BA0ACF /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		67F671A61B831FEB00BA0ACF /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		67F671A71B831FEB00BA0ACF /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		67F671A81B831FEB00BA0ACF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		67F671A91B831FEB00BA0ACF /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		67F671AA1B831FEB00BA0ACF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		67F671AB1B831FEB00BA0ACF /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		67F671AC1B831FEB00BA0ACF /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		67F671AD1B831FEB00BA0ACF /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		67F671B01B831FEB00BA0ACF /* UTAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTAPIBaseManager.h; sourceTree = "<group>"; };
+		67F671B11B831FEB00BA0ACF /* UTAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTAPIBaseManager.m; sourceTree = "<group>"; };
+		67F671B21B831FEB00BA0ACF /* UTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTObject.h; sourceTree = "<group>"; };
+		67F671B31B831FEB00BA0ACF /* UTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTObject.m; sourceTree = "<group>"; };
+		67F671B51B831FEB00BA0ACF /* UTCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTCache.h; sourceTree = "<group>"; };
+		67F671B61B831FEB00BA0ACF /* UTCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTCache.m; sourceTree = "<group>"; };
+		67F671B71B831FEB00BA0ACF /* UTCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTCacheObject.h; sourceTree = "<group>"; };
+		67F671B81B831FEB00BA0ACF /* UTCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTCacheObject.m; sourceTree = "<group>"; };
+		67F671BA1B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+UTNetWorkingMethod.h"; sourceTree = "<group>"; };
+		67F671BB1B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+UTNetWorkingMethod.m"; sourceTree = "<group>"; };
+		67F671BC1B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+UTNetWorkingMethod.h"; sourceTree = "<group>"; };
+		67F671BD1B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+UTNetWorkingMethod.m"; sourceTree = "<group>"; };
+		67F671BE1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UTObject+UTNetWorkingMethod.h"; sourceTree = "<group>"; };
+		67F671BF1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UTObject+UTNetWorkingMethod.m"; sourceTree = "<group>"; };
+		67F671C11B831FEB00BA0ACF /* UTDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDataProvider.h; sourceTree = "<group>"; };
+		67F671C21B831FEB00BA0ACF /* UTDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTDataProvider.m; sourceTree = "<group>"; };
+		67F671C41B831FEB00BA0ACF /* UTNetWorkGlobalVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTNetWorkGlobalVariable.h; sourceTree = "<group>"; };
+		67F671C51B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTNetWorkGlobalVariable.m; sourceTree = "<group>"; };
+		67F671C61B831FEB00BA0ACF /* UTNetWorkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTNetWorkStatus.h; sourceTree = "<group>"; };
+		67F671C71B831FEB00BA0ACF /* UTNetWorkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTNetWorkStatus.m; sourceTree = "<group>"; };
+		67F671C91B831FEB00BA0ACF /* UTRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTRequestFactory.h; sourceTree = "<group>"; };
+		67F671CA1B831FEB00BA0ACF /* UTRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTRequestFactory.m; sourceTree = "<group>"; };
+		67F671CB1B831FEB00BA0ACF /* UTResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTResponse.h; sourceTree = "<group>"; };
+		67F671CC1B831FEB00BA0ACF /* UTResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTResponse.m; sourceTree = "<group>"; };
+		67F671CD1B831FEB00BA0ACF /* UTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTService.h; sourceTree = "<group>"; };
+		67F671CE1B831FEB00BA0ACF /* UTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTService.m; sourceTree = "<group>"; };
+		67F671CF1B831FEB00BA0ACF /* UTServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTServiceFactory.h; sourceTree = "<group>"; };
+		67F671D01B831FEB00BA0ACF /* UTServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTServiceFactory.m; sourceTree = "<group>"; };
+		67F671D21B831FEB00BA0ACF /* UTUserInfoApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTUserInfoApiManager.h; sourceTree = "<group>"; };
+		67F671D31B831FEB00BA0ACF /* UTUserInfoApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTUserInfoApiManager.m; sourceTree = "<group>"; };
+		67F671D41B831FEB00BA0ACF /* UTUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTUserInfoModel.h; sourceTree = "<group>"; };
+		67F671D51B831FEB00BA0ACF /* UTUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTUserInfoModel.m; sourceTree = "<group>"; };
+		67F671D61B831FEB00BA0ACF /* UTUserInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTUserInfoService.h; sourceTree = "<group>"; };
+		67F671D71B831FEB00BA0ACF /* UTUserInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTUserInfoService.m; sourceTree = "<group>"; };
+		67F671D91B831FEB00BA0ACF /* UTErrorInterceptorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTErrorInterceptorHandler.h; sourceTree = "<group>"; };
+		67F671DA1B831FEB00BA0ACF /* UTErrorInterceptorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTErrorInterceptorHandler.m; sourceTree = "<group>"; };
+		67F671DC1B831FEB00BA0ACF /* UTAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTAPIBaseManager.h; sourceTree = "<group>"; };
+		67F671DD1B831FEB00BA0ACF /* UTAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTAPIBaseManager.m; sourceTree = "<group>"; };
+		67F671DE1B831FEB00BA0ACF /* UTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTObject.h; sourceTree = "<group>"; };
+		67F671DF1B831FEB00BA0ACF /* UTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTObject.m; sourceTree = "<group>"; };
+		67F671E11B831FEB00BA0ACF /* UTCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTCache.h; sourceTree = "<group>"; };
+		67F671E21B831FEB00BA0ACF /* UTCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTCache.m; sourceTree = "<group>"; };
+		67F671E31B831FEB00BA0ACF /* UTCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTCacheObject.h; sourceTree = "<group>"; };
+		67F671E41B831FEB00BA0ACF /* UTCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTCacheObject.m; sourceTree = "<group>"; };
+		67F671E61B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+UTNetWorkingMethod.h"; sourceTree = "<group>"; };
+		67F671E71B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+UTNetWorkingMethod.m"; sourceTree = "<group>"; };
+		67F671E81B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+UTNetWorkingMethod.h"; sourceTree = "<group>"; };
+		67F671E91B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+UTNetWorkingMethod.m"; sourceTree = "<group>"; };
+		67F671EA1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UTObject+UTNetWorkingMethod.h"; sourceTree = "<group>"; };
+		67F671EB1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UTObject+UTNetWorkingMethod.m"; sourceTree = "<group>"; };
+		67F671ED1B831FEB00BA0ACF /* UTDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDataProvider.h; sourceTree = "<group>"; };
+		67F671EE1B831FEB00BA0ACF /* UTDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTDataProvider.m; sourceTree = "<group>"; };
+		67F671F01B831FEB00BA0ACF /* UTNetWorkGlobalVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTNetWorkGlobalVariable.h; sourceTree = "<group>"; };
+		67F671F11B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTNetWorkGlobalVariable.m; sourceTree = "<group>"; };
+		67F671F21B831FEB00BA0ACF /* UTNetWorkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTNetWorkStatus.h; sourceTree = "<group>"; };
+		67F671F31B831FEB00BA0ACF /* UTNetWorkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTNetWorkStatus.m; sourceTree = "<group>"; };
+		67F671F51B831FEB00BA0ACF /* UTRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTRequestFactory.h; sourceTree = "<group>"; };
+		67F671F61B831FEB00BA0ACF /* UTRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTRequestFactory.m; sourceTree = "<group>"; };
+		67F671F71B831FEB00BA0ACF /* UTResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTResponse.h; sourceTree = "<group>"; };
+		67F671F81B831FEB00BA0ACF /* UTResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTResponse.m; sourceTree = "<group>"; };
+		67F671F91B831FEB00BA0ACF /* UTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTService.h; sourceTree = "<group>"; };
+		67F671FA1B831FEB00BA0ACF /* UTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTService.m; sourceTree = "<group>"; };
+		67F671FB1B831FEB00BA0ACF /* UTServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTServiceFactory.h; sourceTree = "<group>"; };
+		67F671FC1B831FEB00BA0ACF /* UTServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTServiceFactory.m; sourceTree = "<group>"; };
+		67F671FE1B831FEB00BA0ACF /* UTUserInfoApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTUserInfoApiManager.h; sourceTree = "<group>"; };
+		67F671FF1B831FEB00BA0ACF /* UTUserInfoApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTUserInfoApiManager.m; sourceTree = "<group>"; };
+		67F672001B831FEB00BA0ACF /* UTUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTUserInfoModel.h; sourceTree = "<group>"; };
+		67F672011B831FEB00BA0ACF /* UTUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTUserInfoModel.m; sourceTree = "<group>"; };
+		67F672021B831FEB00BA0ACF /* UTUserInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTUserInfoService.h; sourceTree = "<group>"; };
+		67F672031B831FEB00BA0ACF /* UTUserInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTUserInfoService.m; sourceTree = "<group>"; };
+		67F672051B831FEB00BA0ACF /* UTErrorInterceptorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTErrorInterceptorHandler.h; sourceTree = "<group>"; };
+		67F672061B831FEB00BA0ACF /* UTErrorInterceptorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTErrorInterceptorHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67F6716D1B831F7600BA0ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F671861B831F7600BA0ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67F671671B831F7600BA0ACF = {
+			isa = PBXGroup;
+			children = (
+				67F671721B831F7600BA0ACF /* UTNetRequest */,
+				67F6718C1B831F7600BA0ACF /* UTNetRequestTests */,
+				67F671711B831F7600BA0ACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67F671711B831F7600BA0ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67F671701B831F7600BA0ACF /* UTNetRequest.app */,
+				67F671891B831F7600BA0ACF /* UTNetRequestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67F671721B831F7600BA0ACF /* UTNetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				67F671991B831FEB00BA0ACF /* UTRequest */,
+				67F671771B831F7600BA0ACF /* AppDelegate.h */,
+				67F671781B831F7600BA0ACF /* AppDelegate.m */,
+				67F6717A1B831F7600BA0ACF /* ViewController.h */,
+				67F6717B1B831F7600BA0ACF /* ViewController.m */,
+				67F6717D1B831F7600BA0ACF /* Main.storyboard */,
+				67F671801B831F7600BA0ACF /* Images.xcassets */,
+				67F671821B831F7600BA0ACF /* LaunchScreen.xib */,
+				67F671731B831F7600BA0ACF /* Supporting Files */,
+			);
+			path = UTNetRequest;
+			sourceTree = "<group>";
+		};
+		67F671731B831F7600BA0ACF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67F671741B831F7600BA0ACF /* Info.plist */,
+				67F671751B831F7600BA0ACF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67F6718C1B831F7600BA0ACF /* UTNetRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				67F6718F1B831F7600BA0ACF /* UTNetRequestTests.m */,
+				67F6718D1B831F7600BA0ACF /* Supporting Files */,
+			);
+			path = UTNetRequestTests;
+			sourceTree = "<group>";
+		};
+		67F6718D1B831F7600BA0ACF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67F6718E1B831F7600BA0ACF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67F671991B831FEB00BA0ACF /* UTRequest */ = {
+			isa = PBXGroup;
+			children = (
+				67F6719A1B831FEB00BA0ACF /* AFNetworking */,
+				67F671DB1B831FEB00BA0ACF /* baseManager */,
+				67F671E01B831FEB00BA0ACF /* cache */,
+				67F671E51B831FEB00BA0ACF /* category */,
+				67F671EC1B831FEB00BA0ACF /* dadaprovider */,
+				67F671EF1B831FEB00BA0ACF /* network */,
+				67F671F41B831FEB00BA0ACF /* request */,
+				67F671FD1B831FEB00BA0ACF /* test */,
+				67F672041B831FEB00BA0ACF /* uterror */,
+			);
+			path = UTRequest;
+			sourceTree = "<group>";
+		};
+		67F6719A1B831FEB00BA0ACF /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				67F6719B1B831FEB00BA0ACF /* AFHTTPRequestOperation.h */,
+				67F6719C1B831FEB00BA0ACF /* AFHTTPRequestOperation.m */,
+				67F6719D1B831FEB00BA0ACF /* AFHTTPRequestOperationManager.h */,
+				67F6719E1B831FEB00BA0ACF /* AFHTTPRequestOperationManager.m */,
+				67F6719F1B831FEB00BA0ACF /* AFHTTPSessionManager.h */,
+				67F671A01B831FEB00BA0ACF /* AFHTTPSessionManager.m */,
+				67F671A11B831FEB00BA0ACF /* AFNetworking.h */,
+				67F671A21B831FEB00BA0ACF /* AFNetworkReachabilityManager.h */,
+				67F671A31B831FEB00BA0ACF /* AFNetworkReachabilityManager.m */,
+				67F671A41B831FEB00BA0ACF /* AFSecurityPolicy.h */,
+				67F671A51B831FEB00BA0ACF /* AFSecurityPolicy.m */,
+				67F671A61B831FEB00BA0ACF /* AFURLConnectionOperation.h */,
+				67F671A71B831FEB00BA0ACF /* AFURLConnectionOperation.m */,
+				67F671A81B831FEB00BA0ACF /* AFURLRequestSerialization.h */,
+				67F671A91B831FEB00BA0ACF /* AFURLRequestSerialization.m */,
+				67F671AA1B831FEB00BA0ACF /* AFURLResponseSerialization.h */,
+				67F671AB1B831FEB00BA0ACF /* AFURLResponseSerialization.m */,
+				67F671AC1B831FEB00BA0ACF /* AFURLSessionManager.h */,
+				67F671AD1B831FEB00BA0ACF /* AFURLSessionManager.m */,
+				67F671AE1B831FEB00BA0ACF /* UTRequest */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		67F671AE1B831FEB00BA0ACF /* UTRequest */ = {
+			isa = PBXGroup;
+			children = (
+				67F671AF1B831FEB00BA0ACF /* baseManager */,
+				67F671B41B831FEB00BA0ACF /* cache */,
+				67F671B91B831FEB00BA0ACF /* category */,
+				67F671C01B831FEB00BA0ACF /* dadaprovider */,
+				67F671C31B831FEB00BA0ACF /* network */,
+				67F671C81B831FEB00BA0ACF /* request */,
+				67F671D11B831FEB00BA0ACF /* test */,
+				67F671D81B831FEB00BA0ACF /* uterror */,
+			);
+			path = UTRequest;
+			sourceTree = "<group>";
+		};
+		67F671AF1B831FEB00BA0ACF /* baseManager */ = {
+			isa = PBXGroup;
+			children = (
+				67F671B01B831FEB00BA0ACF /* UTAPIBaseManager.h */,
+				67F671B11B831FEB00BA0ACF /* UTAPIBaseManager.m */,
+				67F671B21B831FEB00BA0ACF /* UTObject.h */,
+				67F671B31B831FEB00BA0ACF /* UTObject.m */,
+			);
+			path = baseManager;
+			sourceTree = "<group>";
+		};
+		67F671B41B831FEB00BA0ACF /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				67F671B51B831FEB00BA0ACF /* UTCache.h */,
+				67F671B61B831FEB00BA0ACF /* UTCache.m */,
+				67F671B71B831FEB00BA0ACF /* UTCacheObject.h */,
+				67F671B81B831FEB00BA0ACF /* UTCacheObject.m */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		67F671B91B831FEB00BA0ACF /* category */ = {
+			isa = PBXGroup;
+			children = (
+				67F671BA1B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.h */,
+				67F671BB1B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m */,
+				67F671BC1B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.h */,
+				67F671BD1B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m */,
+				67F671BE1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.h */,
+				67F671BF1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		67F671C01B831FEB00BA0ACF /* dadaprovider */ = {
+			isa = PBXGroup;
+			children = (
+				67F671C11B831FEB00BA0ACF /* UTDataProvider.h */,
+				67F671C21B831FEB00BA0ACF /* UTDataProvider.m */,
+			);
+			path = dadaprovider;
+			sourceTree = "<group>";
+		};
+		67F671C31B831FEB00BA0ACF /* network */ = {
+			isa = PBXGroup;
+			children = (
+				67F671C41B831FEB00BA0ACF /* UTNetWorkGlobalVariable.h */,
+				67F671C51B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m */,
+				67F671C61B831FEB00BA0ACF /* UTNetWorkStatus.h */,
+				67F671C71B831FEB00BA0ACF /* UTNetWorkStatus.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		67F671C81B831FEB00BA0ACF /* request */ = {
+			isa = PBXGroup;
+			children = (
+				67F671C91B831FEB00BA0ACF /* UTRequestFactory.h */,
+				67F671CA1B831FEB00BA0ACF /* UTRequestFactory.m */,
+				67F671CB1B831FEB00BA0ACF /* UTResponse.h */,
+				67F671CC1B831FEB00BA0ACF /* UTResponse.m */,
+				67F671CD1B831FEB00BA0ACF /* UTService.h */,
+				67F671CE1B831FEB00BA0ACF /* UTService.m */,
+				67F671CF1B831FEB00BA0ACF /* UTServiceFactory.h */,
+				67F671D01B831FEB00BA0ACF /* UTServiceFactory.m */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		67F671D11B831FEB00BA0ACF /* test */ = {
+			isa = PBXGroup;
+			children = (
+				67F671D21B831FEB00BA0ACF /* UTUserInfoApiManager.h */,
+				67F671D31B831FEB00BA0ACF /* UTUserInfoApiManager.m */,
+				67F671D41B831FEB00BA0ACF /* UTUserInfoModel.h */,
+				67F671D51B831FEB00BA0ACF /* UTUserInfoModel.m */,
+				67F671D61B831FEB00BA0ACF /* UTUserInfoService.h */,
+				67F671D71B831FEB00BA0ACF /* UTUserInfoService.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		67F671D81B831FEB00BA0ACF /* uterror */ = {
+			isa = PBXGroup;
+			children = (
+				67F671D91B831FEB00BA0ACF /* UTErrorInterceptorHandler.h */,
+				67F671DA1B831FEB00BA0ACF /* UTErrorInterceptorHandler.m */,
+			);
+			path = uterror;
+			sourceTree = "<group>";
+		};
+		67F671DB1B831FEB00BA0ACF /* baseManager */ = {
+			isa = PBXGroup;
+			children = (
+				67F671DC1B831FEB00BA0ACF /* UTAPIBaseManager.h */,
+				67F671DD1B831FEB00BA0ACF /* UTAPIBaseManager.m */,
+				67F671DE1B831FEB00BA0ACF /* UTObject.h */,
+				67F671DF1B831FEB00BA0ACF /* UTObject.m */,
+			);
+			path = baseManager;
+			sourceTree = "<group>";
+		};
+		67F671E01B831FEB00BA0ACF /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				67F671E11B831FEB00BA0ACF /* UTCache.h */,
+				67F671E21B831FEB00BA0ACF /* UTCache.m */,
+				67F671E31B831FEB00BA0ACF /* UTCacheObject.h */,
+				67F671E41B831FEB00BA0ACF /* UTCacheObject.m */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		67F671E51B831FEB00BA0ACF /* category */ = {
+			isa = PBXGroup;
+			children = (
+				67F671E61B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.h */,
+				67F671E71B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m */,
+				67F671E81B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.h */,
+				67F671E91B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m */,
+				67F671EA1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.h */,
+				67F671EB1B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		67F671EC1B831FEB00BA0ACF /* dadaprovider */ = {
+			isa = PBXGroup;
+			children = (
+				67F671ED1B831FEB00BA0ACF /* UTDataProvider.h */,
+				67F671EE1B831FEB00BA0ACF /* UTDataProvider.m */,
+			);
+			path = dadaprovider;
+			sourceTree = "<group>";
+		};
+		67F671EF1B831FEB00BA0ACF /* network */ = {
+			isa = PBXGroup;
+			children = (
+				67F671F01B831FEB00BA0ACF /* UTNetWorkGlobalVariable.h */,
+				67F671F11B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m */,
+				67F671F21B831FEB00BA0ACF /* UTNetWorkStatus.h */,
+				67F671F31B831FEB00BA0ACF /* UTNetWorkStatus.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		67F671F41B831FEB00BA0ACF /* request */ = {
+			isa = PBXGroup;
+			children = (
+				67F671F51B831FEB00BA0ACF /* UTRequestFactory.h */,
+				67F671F61B831FEB00BA0ACF /* UTRequestFactory.m */,
+				67F671F71B831FEB00BA0ACF /* UTResponse.h */,
+				67F671F81B831FEB00BA0ACF /* UTResponse.m */,
+				67F671F91B831FEB00BA0ACF /* UTService.h */,
+				67F671FA1B831FEB00BA0ACF /* UTService.m */,
+				67F671FB1B831FEB00BA0ACF /* UTServiceFactory.h */,
+				67F671FC1B831FEB00BA0ACF /* UTServiceFactory.m */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		67F671FD1B831FEB00BA0ACF /* test */ = {
+			isa = PBXGroup;
+			children = (
+				67F671FE1B831FEB00BA0ACF /* UTUserInfoApiManager.h */,
+				67F671FF1B831FEB00BA0ACF /* UTUserInfoApiManager.m */,
+				67F672001B831FEB00BA0ACF /* UTUserInfoModel.h */,
+				67F672011B831FEB00BA0ACF /* UTUserInfoModel.m */,
+				67F672021B831FEB00BA0ACF /* UTUserInfoService.h */,
+				67F672031B831FEB00BA0ACF /* UTUserInfoService.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		67F672041B831FEB00BA0ACF /* uterror */ = {
+			isa = PBXGroup;
+			children = (
+				67F672051B831FEB00BA0ACF /* UTErrorInterceptorHandler.h */,
+				67F672061B831FEB00BA0ACF /* UTErrorInterceptorHandler.m */,
+			);
+			path = uterror;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67F6716F1B831F7600BA0ACF /* UTNetRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F671931B831F7600BA0ACF /* Build configuration list for PBXNativeTarget "UTNetRequest" */;
+			buildPhases = (
+				67F6716C1B831F7600BA0ACF /* Sources */,
+				67F6716D1B831F7600BA0ACF /* Frameworks */,
+				67F6716E1B831F7600BA0ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTNetRequest;
+			productName = UTNetRequest;
+			productReference = 67F671701B831F7600BA0ACF /* UTNetRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67F671881B831F7600BA0ACF /* UTNetRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F671961B831F7600BA0ACF /* Build configuration list for PBXNativeTarget "UTNetRequestTests" */;
+			buildPhases = (
+				67F671851B831F7600BA0ACF /* Sources */,
+				67F671861B831F7600BA0ACF /* Frameworks */,
+				67F671871B831F7600BA0ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67F6718B1B831F7600BA0ACF /* PBXTargetDependency */,
+			);
+			name = UTNetRequestTests;
+			productName = UTNetRequestTests;
+			productReference = 67F671891B831F7600BA0ACF /* UTNetRequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67F671681B831F7600BA0ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = dcj;
+				TargetAttributes = {
+					67F6716F1B831F7600BA0ACF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					67F671881B831F7600BA0ACF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 67F6716F1B831F7600BA0ACF;
+					};
+				};
+			};
+			buildConfigurationList = 67F6716B1B831F7600BA0ACF /* Build configuration list for PBXProject "UTNetRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67F671671B831F7600BA0ACF;
+			productRefGroup = 67F671711B831F7600BA0ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67F6716F1B831F7600BA0ACF /* UTNetRequest */,
+				67F671881B831F7600BA0ACF /* UTNetRequestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67F6716E1B831F7600BA0ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F6717F1B831F7600BA0ACF /* Main.storyboard in Resources */,
+				67F671841B831F7600BA0ACF /* LaunchScreen.xib in Resources */,
+				67F671811B831F7600BA0ACF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F671871B831F7600BA0ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67F6716C1B831F7600BA0ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F672071B831FEB00BA0ACF /* AFHTTPRequestOperation.m in Sources */,
+				67F6717C1B831F7600BA0ACF /* ViewController.m in Sources */,
+				67F672121B831FEB00BA0ACF /* UTCache.m in Sources */,
+				67F672261B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m in Sources */,
+				67F672191B831FEB00BA0ACF /* UTNetWorkStatus.m in Sources */,
+				67F672291B831FEB00BA0ACF /* UTDataProvider.m in Sources */,
+				67F672331B831FEB00BA0ACF /* UTErrorInterceptorHandler.m in Sources */,
+				67F6721A1B831FEB00BA0ACF /* UTRequestFactory.m in Sources */,
+				67F6722F1B831FEB00BA0ACF /* UTServiceFactory.m in Sources */,
+				67F672241B831FEB00BA0ACF /* UTCache.m in Sources */,
+				67F672231B831FEB00BA0ACF /* UTObject.m in Sources */,
+				67F672081B831FEB00BA0ACF /* AFHTTPRequestOperationManager.m in Sources */,
+				67F672221B831FEB00BA0ACF /* UTAPIBaseManager.m in Sources */,
+				67F6722C1B831FEB00BA0ACF /* UTRequestFactory.m in Sources */,
+				67F6720A1B831FEB00BA0ACF /* AFNetworkReachabilityManager.m in Sources */,
+				67F6721C1B831FEB00BA0ACF /* UTService.m in Sources */,
+				67F672311B831FEB00BA0ACF /* UTUserInfoModel.m in Sources */,
+				67F672181B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m in Sources */,
+				67F6721F1B831FEB00BA0ACF /* UTUserInfoModel.m in Sources */,
+				67F6720E1B831FEB00BA0ACF /* AFURLResponseSerialization.m in Sources */,
+				67F6722D1B831FEB00BA0ACF /* UTResponse.m in Sources */,
+				67F672101B831FEB00BA0ACF /* UTAPIBaseManager.m in Sources */,
+				67F6722E1B831FEB00BA0ACF /* UTService.m in Sources */,
+				67F6720C1B831FEB00BA0ACF /* AFURLConnectionOperation.m in Sources */,
+				67F672251B831FEB00BA0ACF /* UTCacheObject.m in Sources */,
+				67F672161B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m in Sources */,
+				67F672171B831FEB00BA0ACF /* UTDataProvider.m in Sources */,
+				67F672111B831FEB00BA0ACF /* UTObject.m in Sources */,
+				67F6720B1B831FEB00BA0ACF /* AFSecurityPolicy.m in Sources */,
+				67F6722A1B831FEB00BA0ACF /* UTNetWorkGlobalVariable.m in Sources */,
+				67F672091B831FEB00BA0ACF /* AFHTTPSessionManager.m in Sources */,
+				67F672211B831FEB00BA0ACF /* UTErrorInterceptorHandler.m in Sources */,
+				67F6720D1B831FEB00BA0ACF /* AFURLRequestSerialization.m in Sources */,
+				67F6720F1B831FEB00BA0ACF /* AFURLSessionManager.m in Sources */,
+				67F672141B831FEB00BA0ACF /* NSDictionary+UTNetWorkingMethod.m in Sources */,
+				67F671791B831F7600BA0ACF /* AppDelegate.m in Sources */,
+				67F672321B831FEB00BA0ACF /* UTUserInfoService.m in Sources */,
+				67F672131B831FEB00BA0ACF /* UTCacheObject.m in Sources */,
+				67F672301B831FEB00BA0ACF /* UTUserInfoApiManager.m in Sources */,
+				67F672151B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m in Sources */,
+				67F6721D1B831FEB00BA0ACF /* UTServiceFactory.m in Sources */,
+				67F672281B831FEB00BA0ACF /* UTObject+UTNetWorkingMethod.m in Sources */,
+				67F671761B831F7600BA0ACF /* main.m in Sources */,
+				67F6722B1B831FEB00BA0ACF /* UTNetWorkStatus.m in Sources */,
+				67F6721B1B831FEB00BA0ACF /* UTResponse.m in Sources */,
+				67F6721E1B831FEB00BA0ACF /* UTUserInfoApiManager.m in Sources */,
+				67F672271B831FEB00BA0ACF /* NSURLRequest+UTNetWorkingMethod.m in Sources */,
+				67F672201B831FEB00BA0ACF /* UTUserInfoService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F671851B831F7600BA0ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F671901B831F7600BA0ACF /* UTNetRequestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67F6718B1B831F7600BA0ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67F6716F1B831F7600BA0ACF /* UTNetRequest */;
+			targetProxy = 67F6718A1B831F7600BA0ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67F6717D1B831F7600BA0ACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F6717E1B831F7600BA0ACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67F671821B831F7600BA0ACF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F671831B831F7600BA0ACF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67F671911B831F7600BA0ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67F671921B831F7600BA0ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67F671941B831F7600BA0ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UTNetRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67F671951B831F7600BA0ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UTNetRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67F671971B831F7600BA0ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UTNetRequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTNetRequest.app/UTNetRequest";
+			};
+			name = Debug;
+		};
+		67F671981B831F7600BA0ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UTNetRequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTNetRequest.app/UTNetRequest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67F6716B1B831F7600BA0ACF /* Build configuration list for PBXProject "UTNetRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F671911B831F7600BA0ACF /* Debug */,
+				67F671921B831F7600BA0ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F671931B831F7600BA0ACF /* Build configuration list for PBXNativeTarget "UTNetRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F671941B831F7600BA0ACF /* Debug */,
+				67F671951B831F7600BA0ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67F671961B831F7600BA0ACF /* Build configuration list for PBXNativeTarget "UTNetRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F671971B831F7600BA0ACF /* Debug */,
+				67F671981B831F7600BA0ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67F671681B831F7600BA0ACF /* Project object */;
+}
